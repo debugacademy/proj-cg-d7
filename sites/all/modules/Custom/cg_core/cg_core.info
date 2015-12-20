@@ -1,0 +1,4 @@
+name = cg_core
+description = This module contains our custom code, as well as dependencies, ideally allowing us to 'rebuild the site' simply by enabling this module. It also contains a settings form so that the client can edit the homepage blocks.
+core = 7.x
+version = 7.x-1.x
