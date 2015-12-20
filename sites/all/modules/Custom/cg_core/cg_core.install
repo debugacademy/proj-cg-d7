@@ -4,7 +4,6 @@ drupal_set_message($message = t('The cg_core module was successfully enabled.'),
 
   $enable = array(
     'theme_default' => 'cont_good',
-    //'zen'
   );
   theme_enable($enable);
 

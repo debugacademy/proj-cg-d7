@@ -1,4 +1,4 @@
 name = cg_core
-description = This module is very simple.
+description = This module contains a settings form so that the client can edit the homepage blocks.
 core = 7.x
 version = 7.x-1.x
