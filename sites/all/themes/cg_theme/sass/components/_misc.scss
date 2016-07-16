@@ -31,6 +31,7 @@
   }
 }
 
+/* Continuous Good bck edits */
 #footer {
   display: inline-block;
   font: caption;
@@ -42,14 +43,30 @@
   width: 100%;
 }
 
-/*
-  Continuous Good Header
-  Image Source: sites/all/themes/cg_theme/images/header.jpg
-*/
-
-#header{
-  
+#header {
+  display: inline-block;
+  font: caption;
+  color:  #40a2c9;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  height: 190px;
+  width: 100%;
 }
+
+#main-menu a {
+  color:  #40a2c9;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#main-menu a:hover {
+  color: white;
+  background-color: #8ccae3;
+  padding: 10px;
+}
+
 
 /**
  * Accessibility features.
