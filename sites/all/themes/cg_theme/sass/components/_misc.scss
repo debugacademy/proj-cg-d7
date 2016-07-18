@@ -32,14 +32,8 @@
 }
 
 /* Continuous Good bck edits */
-#footer {
-  display: inline-block;
-  font: caption;
-  color:  #40a2c9;
-  background-color: white;
-  text-decoration: none;
-  padding: 10px;
-  height: 190px;
+#header, #footer {
+  height: 150px;
   width: 100%;
 }
 
@@ -50,8 +44,6 @@
   background-color: white;
   text-decoration: none;
   padding: 10px;
-  height: 190px;
-  width: 100%;
 }
 
 #main-menu {
