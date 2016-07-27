@@ -16,7 +16,7 @@ function cg_pages_default_ctools_custom_content() {
   $content->name = '123';
   $content->admin_title = 'Homepage';
   $content->admin_description = '';
-  $content->category = 'Category of Homepage';
+  $content->category = 'Homepage';
   $content->settings = array(
     'admin_title' => '',
     'title' => 'Homepage',
