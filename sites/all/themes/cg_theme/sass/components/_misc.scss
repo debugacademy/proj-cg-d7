@@ -806,3 +806,84 @@ tr.selected td {
     background-image: image-url("progress.gif");
   }
 }
+
+/**
+ * Continuous Good
+ *
+ */
+
+$background-color-green: #3eada7;
+$primary-font-color: #fff;
+$secondary-font-color: #000;
+$font-stack: Helvetica, sans-serif;
+$span-green-text: #e0ffff;
+
+  div.content-wide {
+  width: 100%;
+  margin: 0 auto;
+}
+div.content-narrow {
+  width:100%;
+  max-width: 1008px;
+  margin: 0 auto;
+}
+ div.contextual-links-region.panel-pane.pane-custom.pane-1 {
+   background-image: url("http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/Header-StockPhoto.jpg");
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 670px;
+   }
+
+   div.hero-heading {
+     h2{
+     text-align: center;
+     padding-top: 406px;
+     text-transform: uppercase;
+     color: $primary-font-color;
+     font-size: 28px;
+     }
+     img {
+      position: relative;
+      left: 40%;
+      top: -30px;
+    }
+}
+
+
+/******************** Section Two Style **********************************/
+
+#panels-ipe-paneid-3 {
+  background-image: url('http://dev-2.academyvm.dev/proj-cg/images/section-2-top-dotted-border.jpg');
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: $background-color-green;
+  height: 320px;
+  text-align: center;
+  top: 0;
+  }
+
+  .panels-ipe-paneid-3 {
+    h3 {
+     color: $primary-font-color;
+     position: relative;
+     top: 50px;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 24px;
+     font-family:$font-stack;
+     font-weight:100;
+     -webkit-font-smoothing: antialiased;
+  }
+  p {
+    position: relative;
+    top: 80px;
+    color: $span-green-text;
+    font-weight: lighter;
+    line-height: 1.5;
+  }
+}
+
+
+// .green-text {
+//   color: $span-green-text;
+// }
