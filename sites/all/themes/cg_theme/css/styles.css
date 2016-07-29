@@ -1800,7 +1800,7 @@ img.step-inner {
 
 /* line 900, ../sass/components/_misc.scss */
 .step {
-  background-image: url("images/circle-smaller-section1.png");
+  background-image: url("http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/circle-smaller-section1.png");
   background-repeat: no-repeat;
   display: inline-flex;
 }
@@ -1819,10 +1819,11 @@ p.step-right {
   font-weight: bold;
   font-size: 26px;
   color: gray;
+  margin-top: 20px;
 }
 
 /******************** Section Two Style **********************************/
-/* line 921, ../sass/components/_misc.scss */
+/* line 922, ../sass/components/_misc.scss */
 #panels-ipe-paneid-3 {
   background-image: url("http://dev-2.academyvm.dev/proj-cg/images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -1833,7 +1834,7 @@ p.step-right {
   top: 0;
 }
 
-/* line 932, ../sass/components/_misc.scss */
+/* line 933, ../sass/components/_misc.scss */
 .panels-ipe-paneid-3 h3 {
   color: white;
   position: relative;
@@ -1845,7 +1846,7 @@ p.step-right {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 943, ../sass/components/_misc.scss */
+/* line 944, ../sass/components/_misc.scss */
 .panels-ipe-paneid-3 p {
   position: relative;
   top: 80px;
