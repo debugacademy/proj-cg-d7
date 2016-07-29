@@ -919,7 +919,7 @@ img.step-inner {
  }
 /******************** Section Two Style **********************************/
 
-#panels-ipe-paneid-3 {
+div.contextual-links-region.panel-pane.pane-custom.pane-3 {
   background-image: url('http://dev-2.academyvm.dev/proj-cg/images/section-2-top-dotted-border.jpg');
   background-position: top;
   background-repeat: repeat-x;
@@ -929,8 +929,8 @@ img.step-inner {
   top: 0;
   }
 
-  .panels-ipe-paneid-3 {
-    h3 {
+  .panels-ipe-paneid-5#section-two h3 {
+
      color: $primary-font-color;
      position: relative;
      top: 50px;
@@ -941,16 +941,77 @@ img.step-inner {
      font-weight:100;
      -webkit-font-smoothing: antialiased;
   }
-  p {
+  .panels-ipe-paneid-5#section-two p {
     position: relative;
     top: 80px;
     color: $span-green-text;
     font-weight: lighter;
     line-height: 1.5;
-  }
+}
+.green-text {
+  color: $span-green-text;
+ }
+
+// Step 1 CSS
+div.contextual-links-region.panel-pane.pane-custom.pane-4 {
+  background-image: url('http://dev-2.academyvm.dev/proj-cg/images/section-3-top-squiggle-border.jpg');
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: #fdfdff;
+  overflow: hidden;
 }
 
+#section-three h3 {
+  color: gray;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: lighter;
+}
 
-// .green-text {
-//   color: $span-green-text;
-// }
+.apnd div{
+  height: 275px;
+  width: 210px;
+  margin-left: 5px;
+  float: left;
+  margin: 10px 10px;
+}
+
+.apnd-img {
+  height: 250px;
+  width: 210px;
+}
+img.purple-cause-hover {
+  width: 100%;
+}
+
+img.purple-cause-prehover {
+  width: 100%;
+}
+.purple-cause-hover {
+  position: relative;
+  top: -235px;
+}
+
+.purple-cause-prehover {
+  position: relative;
+  top: -102px;
+}
+
+p.purple-cause-hover-paragraph {
+  position: relative;
+  top: -340px;
+  text-align: center;
+  color: #CB99C9;
+  width: 210px;
+}
+
+p.purple-cause-hover-preparagraph {
+  position: relative;
+  top: -180px;
+  text-align: center;
+  color: white;
+  width: 210px;
+}

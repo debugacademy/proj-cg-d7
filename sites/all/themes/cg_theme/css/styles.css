@@ -1824,7 +1824,7 @@ p.step-right {
 
 /******************** Section Two Style **********************************/
 /* line 922, ../sass/components/_misc.scss */
-#panels-ipe-paneid-3 {
+div.contextual-links-region.panel-pane.pane-custom.pane-3 {
   background-image: url("http://dev-2.academyvm.dev/proj-cg/images/section-2-top-dotted-border.jpg");
   background-position: top;
   background-repeat: repeat-x;
@@ -1834,8 +1834,8 @@ p.step-right {
   top: 0;
 }
 
-/* line 933, ../sass/components/_misc.scss */
-.panels-ipe-paneid-3 h3 {
+/* line 932, ../sass/components/_misc.scss */
+.panels-ipe-paneid-5#section-two h3 {
   color: white;
   position: relative;
   top: 50px;
@@ -1846,13 +1846,94 @@ p.step-right {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
+
 /* line 944, ../sass/components/_misc.scss */
-.panels-ipe-paneid-3 p {
+.panels-ipe-paneid-5#section-two p {
   position: relative;
   top: 80px;
   color: lightcyan;
   font-weight: lighter;
   line-height: 1.5;
+}
+
+/* line 951, ../sass/components/_misc.scss */
+.green-text {
+  color: lightcyan;
+}
+
+/* line 956, ../sass/components/_misc.scss */
+div.contextual-links-region.panel-pane.pane-custom.pane-4 {
+  background-image: url("http://dev-2.academyvm.dev/proj-cg/images/section-3-top-squiggle-border.jpg");
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: #fdfdff;
+  overflow: hidden;
+}
+
+/* line 964, ../sass/components/_misc.scss */
+#section-three h3 {
+  color: gray;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+/* line 974, ../sass/components/_misc.scss */
+.apnd div {
+  height: 275px;
+  width: 210px;
+  margin-left: 5px;
+  float: left;
+  margin: 10px 10px;
+}
+
+/* line 982, ../sass/components/_misc.scss */
+.apnd-img {
+  height: 250px;
+  width: 210px;
+}
+
+/* line 986, ../sass/components/_misc.scss */
+img.purple-cause-hover {
+  width: 100%;
+}
+
+/* line 990, ../sass/components/_misc.scss */
+img.purple-cause-prehover {
+  width: 100%;
+}
+
+/* line 993, ../sass/components/_misc.scss */
+.purple-cause-hover {
+  position: relative;
+  top: -235px;
+}
+
+/* line 998, ../sass/components/_misc.scss */
+.purple-cause-prehover {
+  position: relative;
+  top: -102px;
+}
+
+/* line 1003, ../sass/components/_misc.scss */
+p.purple-cause-hover-paragraph {
+  position: relative;
+  top: -340px;
+  text-align: center;
+  color: #CB99C9;
+  width: 210px;
+}
+
+/* line 1011, ../sass/components/_misc.scss */
+p.purple-cause-hover-preparagraph {
+  position: relative;
+  top: -180px;
+  text-align: center;
+  color: white;
+  width: 210px;
 }
 
 /**
