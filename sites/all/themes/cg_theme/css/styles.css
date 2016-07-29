@@ -1711,20 +1711,20 @@ tr.selected td {
  * Continuous Good
  *
  */
-/* line 821, ../sass/components/_misc.scss */
+/* line 822, ../sass/components/_misc.scss */
 div.content-wide {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 825, ../sass/components/_misc.scss */
+/* line 826, ../sass/components/_misc.scss */
 div.content-narrow {
   width: 100%;
   max-width: 1008px;
   margin: 0 auto;
 }
 
-/* line 830, ../sass/components/_misc.scss */
+/* line 831, ../sass/components/_misc.scss */
 div.contextual-links-region.panel-pane.pane-custom.pane-1 {
   background-image: url("http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/Header-StockPhoto.jpg");
   background-repeat: no-repeat;
@@ -1732,7 +1732,7 @@ div.contextual-links-region.panel-pane.pane-custom.pane-1 {
   height: 670px;
 }
 
-/* line 838, ../sass/components/_misc.scss */
+/* line 839, ../sass/components/_misc.scss */
 div.hero-heading h2 {
   text-align: center;
   padding-top: 406px;
@@ -1740,15 +1740,89 @@ div.hero-heading h2 {
   color: white;
   font-size: 28px;
 }
-/* line 845, ../sass/components/_misc.scss */
+/* line 846, ../sass/components/_misc.scss */
 div.hero-heading img {
   position: relative;
   left: 40%;
   top: -30px;
 }
 
-/******************** Section Two Style **********************************/
 /* line 855, ../sass/components/_misc.scss */
+div.contextual-links-region.panel-pane.pane-custom.pane-2 {
+  background-image: url("http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/lightgray-bg.gif");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-color: white;
+  min-height: 500px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 864, ../sass/components/_misc.scss */
+#panels-ipe-paneid-2 h3 {
+  color: gray;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+/* line 874, ../sass/components/_misc.scss */
+.bg-container {
+  background-image: url("http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/circle-section1.png");
+  background-repeat: no-repeat;
+  min-height: 300px;
+  align-items: center;
+  margin-left: 40px;
+  position: relative;
+  top: 50px;
+}
+
+/* line 884, ../sass/components/_misc.scss */
+.step-blocks {
+  display: flex;
+}
+
+/* line 888, ../sass/components/_misc.scss */
+.step-block {
+  flex: 1;
+  padding: 1em;
+  min-height: inherit;
+}
+
+/* line 894, ../sass/components/_misc.scss */
+img.step-inner {
+  position: relative;
+  left: 60px;
+  top: 60px;
+}
+
+/* line 900, ../sass/components/_misc.scss */
+.step {
+  background-image: url("images/circle-smaller-section1.png");
+  background-repeat: no-repeat;
+  display: inline-flex;
+}
+
+/* line 906, ../sass/components/_misc.scss */
+p.step-left {
+  margin-left: 80px;
+  font-weight: 300;
+  font-size: 16px;
+  color: gray;
+}
+
+/* line 913, ../sass/components/_misc.scss */
+p.step-right {
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 26px;
+  color: gray;
+}
+
+/******************** Section Two Style **********************************/
+/* line 921, ../sass/components/_misc.scss */
 #panels-ipe-paneid-3 {
   background-image: url("http://dev-2.academyvm.dev/proj-cg/images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -1759,7 +1833,7 @@ div.hero-heading img {
   top: 0;
 }
 
-/* line 866, ../sass/components/_misc.scss */
+/* line 932, ../sass/components/_misc.scss */
 .panels-ipe-paneid-3 h3 {
   color: white;
   position: relative;
@@ -1771,7 +1845,7 @@ div.hero-heading img {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 877, ../sass/components/_misc.scss */
+/* line 943, ../sass/components/_misc.scss */
 .panels-ipe-paneid-3 p {
   position: relative;
   top: 80px;
