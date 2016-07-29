@@ -817,6 +817,7 @@ $primary-font-color: #fff;
 $secondary-font-color: #000;
 $font-stack: Helvetica, sans-serif;
 $span-green-text: #e0ffff;
+$white-background-color: #ffffff;
 
   div.content-wide {
   width: 100%;
@@ -849,7 +850,72 @@ div.content-narrow {
     }
 }
 
+// Section One Action Continuous Good Style
 
+div.contextual-links-region.panel-pane.pane-custom.pane-2 {
+  background-image: url('http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/lightgray-bg.gif');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-color: $white-background-color;
+  min-height: 500px;
+  text-rendering: optimizeLegibility;
+}
+
+#panels-ipe-paneid-2 h3{
+   color: gray;
+   position: relative;
+   top: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 24px;
+   font-weight: lighter;
+ }
+
+.bg-container  {
+   background-image: url('http://dev-2.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/circle-section1.png');
+   background-repeat: no-repeat;
+   min-height: 300px;
+   align-items: center;
+   margin-left: 40px;
+   position: relative;
+   top: 50px;
+ }
+
+.step-blocks {
+  display: flex;
+}
+
+.step-block {
+  flex: 1;
+  padding: 1em;
+  min-height: inherit;
+}
+
+img.step-inner {
+  position: relative;
+  left: 60px;
+  top: 60px;
+ }
+
+ .step  {
+   background-image: url('images/circle-smaller-section1.png');
+   background-repeat: no-repeat;
+   display: inline-flex;
+ }
+
+ p.step-left {
+  margin-left: 80px;
+  font-weight: 300;
+  font-size: 16px;
+  color: gray;
+}
+
+ p.step-right {
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 26px;
+  color: gray;
+ }
 /******************** Section Two Style **********************************/
 
 #panels-ipe-paneid-3 {
