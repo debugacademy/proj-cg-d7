@@ -957,7 +957,7 @@ Continuous Good Changes
 
 /* line 104, ../sass/components/_misc.scss */
 .num-container {
-  background: url("images/circle-smaller-section1.png") left no-repeat;
+  background: url("../images/circle-smaller-section1.png") left no-repeat;
   width: 66px;
   height: 66px;
   position: relative;
@@ -983,7 +983,7 @@ Continuous Good Changes
 
 /* line 128, ../sass/components/_misc.scss */
 .bg-container {
-  background: url("images/circle-section1.png") no-repeat;
+  background: url("../images/circle-section1.png") no-repeat;
   width: 199px;
   height: 200px;
   position: relative;
@@ -1000,7 +1000,7 @@ Continuous Good Changes
 
 /* line 143, ../sass/components/_misc.scss */
 #step-section {
-  background: url("images/lightgray-bg.gif") bottom;
+  background: url("../images/lightgray-bg.gif") bottom;
   background-color: #ffffff;
   height: 50%;
   width: 100%;
