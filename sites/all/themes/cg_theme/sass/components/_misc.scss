@@ -79,6 +79,9 @@ Continuous Good Changes
 
 .front {
   /* Insert here */
+  h2 {
+    text-transform: uppercase;
+  }
 
   #hero {
   background-image: url("../images/Header-StockPhoto.jpg");
@@ -168,8 +171,19 @@ Continuous Good Changes
     width: 100%;
   }
 
-  #step-section pane-title{
+  #step-section .pane-title{
     text-align: center;
+    text-transform: uppercase;
+  }
+
+  #welcome-section {
+  background: url("../images/section-2-top-dotted-border.jpg") top;
+  background-repeat: repeat-x;
+  background-color: #3eada7;
+  color: #ffffff;
+  height: 50%;
+  width: 100%;
+  text-align: center;
   }
 
 }
