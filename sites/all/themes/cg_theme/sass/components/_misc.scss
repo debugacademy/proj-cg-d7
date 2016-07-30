@@ -87,10 +87,15 @@ Continuous Good Changes
 
 }
 
+.overlay {
+  text-align: center;
+
+}
+
 #give-forward {
   position: relative;
-  top: 172px;
-    left: 500px;
+  top: 380px;
+  left: 500px;
 }
 
 .step-blocks{
@@ -107,6 +112,10 @@ Continuous Good Changes
   height: 66px;
   position: relative;
     left: -20px;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .step-num { 
@@ -140,7 +149,7 @@ Continuous Good Changes
     width: 50%;
 }
 
-#step-section {
+.pane-2 {
   background: url("../images/lightgray-bg.gif") bottom;
   background-color: #ffffff;
   height: 50%;
