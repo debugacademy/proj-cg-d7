@@ -89,6 +89,12 @@ Continuous Good Changes
 
   }
 
+  #hero h2{
+    color: #fff;
+    position: relative;
+    top: 400px;
+  }
+
   .overlay {
     text-align: center;
 
@@ -98,6 +104,10 @@ Continuous Good Changes
     position: relative;
     top: 380px;
     left: 500px;
+  }
+
+  element.style {
+    text-align: center;
   }
 
   .step-blocks {
@@ -151,11 +161,15 @@ Continuous Good Changes
       width: 50%;
   }
 
-  .pane-2 {
+  #step-section {
     background: url("../images/lightgray-bg.gif") bottom;
     background-color: #ffffff;
     height: 50%;
     width: 100%;
+  }
+
+  #step-section pane-title{
+    text-align: center;
   }
 
 }
