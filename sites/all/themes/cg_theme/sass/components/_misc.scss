@@ -77,84 +77,90 @@
 Continuous Good Changes
 */
 
-#hero{
+.front {
+  /* Insert here */
+
+  #hero {
   background-image: url("../images/Header-StockPhoto.jpg");
   background-size: cover;
   overflow: hidden;
   height: 671px;
-  width: 1454px;
-  
+  width: 1454px;  
 
-}
+  }
 
-.overlay {
-  text-align: center;
+  .overlay {
+    text-align: center;
 
-}
+  }
 
-#give-forward {
-  position: relative;
-  top: 380px;
-  left: 500px;
-}
+  #give-forward {
+    position: relative;
+    top: 380px;
+    left: 500px;
+  }
 
-.step-blocks{
-  text-align: center;
-}
-.step-block{
-  display: inline-block;
-  width: 30%;
-}
+  .step-blocks {
+    text-align: center;
+  }
+  .step-block {
+    display: inline-block;
+    width: 30%;
+  }
 
-.num-container{
-  background: url("../images/circle-smaller-section1.png") left no-repeat;
-  width: 66px;
-  height: 66px;
-  position: relative;
-    left: -20px;
-}
+  .num-container {
+    background: url("../images/circle-smaller-section1.png") left no-repeat;
+    width: 66px;
+    height: 66px;
+    position: relative;
+      left: -20px;
+  }
 
-.inline-block {
-  display: inline-block;
-}
+  .inline-block {
+    display: inline-block;
+  }
 
-.step-num { 
-  position: absolute;
-  top: 25px;
-    left: 29px;
+  .step-num { 
+    position: absolute;
+    top: 25px;
+      left: 29px;
 
-}
+  }
 
-.text-container {
-  text-align: center;
-}
+  .text-container {
+    text-align: center;
+  }
 
-.step-text {  
-  text-align: center;
+  .step-text {  
+    text-align: center;
 
-}
+  }
 
-.bg-container{
-  background: url("../images/circle-section1.png") no-repeat;
-  width: 199px;
-  height: 200px;
-  position: relative;
-}
+  .bg-container {
+    background: url("../images/circle-section1.png") no-repeat;
+    width: 199px;
+    height: 200px;
+    position: relative;
+  }
 
-.step-inner {
-  position: absolute;
-    top: 50px;
-    left: 50px;
+  .step-inner {
+    position: absolute;
+      top: 50px;
+      left: 50px;
+      height: 50%;
+      width: 50%;
+  }
+
+  .pane-2 {
+    background: url("../images/lightgray-bg.gif") bottom;
+    background-color: #ffffff;
     height: 50%;
-    width: 50%;
+    width: 100%;
+  }
+
 }
 
-.pane-2 {
-  background: url("../images/lightgray-bg.gif") bottom;
-  background-color: #ffffff;
-  height: 50%;
-  width: 100%;
-}
+
 
 /**
  * Branding header.
