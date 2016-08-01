@@ -126,7 +126,7 @@ Continuous Good Changes
     width: 66px;
     height: 66px;
     position: relative;
-      left: -20px;
+    left: -20px;
   }
 
   .inline-block {
@@ -177,13 +177,24 @@ Continuous Good Changes
   }
 
   #welcome-section {
-  background: url("../images/section-2-top-dotted-border.jpg") top;
-  background-repeat: repeat-x;
-  background-color: #3eada7;
-  color: #ffffff;
-  height: 50%;
-  width: 100%;
-  text-align: center;
+    background: url("../images/section-2-top-dotted-border.jpg") top;
+    background-repeat: repeat-x;
+    background-color: #3eada7;
+    color: #ffffff;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+
+  #step-one {
+    background: url("../images/section-3-top-squiggle-border.jpg") top;
+    background-repeat: repeat-x;
+    background-color: #fdfdff;
+  }
+
+  #step-two {
+    background-image: url("../images/hands-bg.jpg");
+    color: #ffffff;
   }
 
 }
