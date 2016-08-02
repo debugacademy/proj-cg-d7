@@ -83,6 +83,10 @@ Continuous Good Changes
     text-transform: uppercase;
   }
 
+  .pane-title {
+    text-align: center;
+  }
+
   #hero, #step-section, #welcome-section, #step-section, #step-one, #step-two, #testimonials, #step-three, #subscribe {
     width: 1454px;
     overflow: hidden;
@@ -171,7 +175,6 @@ Continuous Good Changes
     background: url("../images/lightgray-bg.gif") bottom;
     background-color: #ffffff;
     height: 50%;
-    width: 100%;
   }
 
   #step-section .pane-title{
@@ -185,7 +188,6 @@ Continuous Good Changes
     background-color: #3eada7;
     color: #ffffff;
     height: 50%;
-    width: 100%;
     text-align: center;
   }
 
@@ -198,27 +200,30 @@ Continuous Good Changes
   #step-two {
     background-image: url("../images/hands-bg.jpg");
     color: #ffffff;
+    text-align: center;
   }
 
   #step-three {
-    background: url("images/section-2-top-dotted-border.jpg") top;
+    background: url("../images/section-2-top-dotted-border.jpg") top;
     background-repeat: repeat-x;
     color: #ffffff;
     background-color: #3eada7;
+    text-align: center;
   }
 
   #subscribe {
-    background: url("images/section-2-top-squiggle-border.jpg") top;
+    background: url("../images/section-2-top-squiggle-border.jpg") top;
     background-color: #fdfdff;
+    text-align: center;
   }
 
   .img-block {
-    background-image: url("images/purple-cause-prehover.png");
+    background-image: url("../images/purple-cause-prehover.png");
     background-repeat: no-repeat;
   }
 
   .img-block:hover {
-    background-image: url("images/purple-cause-hover.png");
+    background-image: url("../images/purple-cause-hover.png");
     background-repeat: no-repeat;
   }
 
