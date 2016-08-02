@@ -83,13 +83,16 @@ Continuous Good Changes
     text-transform: uppercase;
   }
 
-  #hero {
-  background-image: url("../images/Header-StockPhoto.jpg");
-  background-size: cover;
-  overflow: hidden;
-  height: 671px;
-  width: 1454px;  
+  #hero, #step-section, #welcome-section, #step-section, #step-one, #step-two, #testimonials, #step-three, #subscribe {
+    width: 1454px;
+    overflow: hidden;
 
+  }
+
+  #hero {
+    background-image: url("../images/Header-StockPhoto.jpg");
+    background-size: cover;  
+    height: 671px;
   }
 
   #hero h2{
@@ -135,8 +138,8 @@ Continuous Good Changes
 
   .step-num { 
     position: absolute;
-    top: 25px;
-      left: 29px;
+    top: -2px;
+    left: 27px;
 
   }
 
