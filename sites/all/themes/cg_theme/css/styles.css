@@ -1707,34 +1707,31 @@ tr.selected td {
   background-image: url('../images/progress.gif?1469580320');
 }
 
-/**
-* Continuous Good
-*
-*/
-/* line 815, ../sass/components/_misc.scss */
+/*** Continuous Good Style **/
+/* line 813, ../sass/components/_misc.scss */
 .front * {
   margin: 0;
   padding: 0;
 }
 
-/* line 821, ../sass/components/_misc.scss */
+/* line 819, ../sass/components/_misc.scss */
 body.front * {
   margin: 0;
   padding: 0;
 }
-/* line 826, ../sass/components/_misc.scss */
+/* line 824, ../sass/components/_misc.scss */
 body.front #page {
   margin-left: 0;
   margin-right: 0;
   max-width: 100%;
 }
-/* line 832, ../sass/components/_misc.scss */
+/* line 830, ../sass/components/_misc.scss */
 body.front #content {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 849, ../sass/components/_misc.scss */
+/* line 848, ../sass/components/_misc.scss */
 .font-basic, div.hero h2, div.one-action-cg h3, div.welcome-cg h3, div.step-1-cg h3, div.step-2-cg h3, div.testimonial-cg .testimonials p.testimonials-names, div.testimonial-cg .testimonials p.testimonials-type, div.step-3-cg h3, div.step-3-cg button {
   text-align: center;
   text-transform: uppercase;
@@ -1742,19 +1739,19 @@ body.front #content {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 857, ../sass/components/_misc.scss */
+/* line 856, ../sass/components/_misc.scss */
 div.content-wide {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 861, ../sass/components/_misc.scss */
+/* line 860, ../sass/components/_misc.scss */
 div.content-narrow {
   max-width: 1008px;
   margin: 0 auto;
 }
 
-/* line 865, ../sass/components/_misc.scss */
+/* line 864, ../sass/components/_misc.scss */
 div.hero {
   background-image: url("../images/Header-StockPhoto.jpg");
   background-repeat: no-repeat;
@@ -1762,14 +1759,15 @@ div.hero {
   height: 670px;
   text-align: center;
 }
-/* line 871, ../sass/components/_misc.scss */
+/* line 870, ../sass/components/_misc.scss */
 div.hero h2 {
   font-size: 28px;
   padding-top: 406px;
   color: white;
 }
 
-/* line 883, ../sass/components/_misc.scss */
+/********************** One Action Style  *******************/
+/* line 882, ../sass/components/_misc.scss */
 div.one-action-cg {
   background-image: url("../images/lightgray-bg.gif");
   background-repeat: repeat-x;
@@ -1779,7 +1777,7 @@ div.one-action-cg {
   text-rendering: optimizeLegibility;
   margin: auto;
 }
-/* line 891, ../sass/components/_misc.scss */
+/* line 890, ../sass/components/_misc.scss */
 div.one-action-cg h3 {
   color: lightgrey;
   position: relative;
@@ -1787,7 +1785,7 @@ div.one-action-cg h3 {
   font-weight: lighter;
 }
 
-/* line 901, ../sass/components/_misc.scss */
+/* line 900, ../sass/components/_misc.scss */
 .bg-container {
   background-image: url("../images/circle-section1.png");
   background-repeat: no-repeat;
@@ -1798,33 +1796,33 @@ div.one-action-cg h3 {
   top: 50px;
 }
 
-/* line 911, ../sass/components/_misc.scss */
+/* line 910, ../sass/components/_misc.scss */
 .step-blocks {
   display: flex;
 }
 
-/* line 915, ../sass/components/_misc.scss */
+/* line 914, ../sass/components/_misc.scss */
 .step-block {
   flex: 1;
   padding: 1em;
   min-height: inherit;
 }
 
-/* line 921, ../sass/components/_misc.scss */
+/* line 920, ../sass/components/_misc.scss */
 img.step-inner {
   position: relative;
   left: 60px;
   top: 60px;
 }
 
-/* line 927, ../sass/components/_misc.scss */
+/* line 926, ../sass/components/_misc.scss */
 .step {
   background-image: url("../images/circle-smaller-section1.png");
   background-repeat: no-repeat;
   display: inline-flex;
 }
 
-/* line 933, ../sass/components/_misc.scss */
+/* line 932, ../sass/components/_misc.scss */
 p.step-left {
   margin-left: 80px;
   font-weight: 300;
@@ -1832,7 +1830,7 @@ p.step-left {
   color: lightgrey;
 }
 
-/* line 940, ../sass/components/_misc.scss */
+/* line 939, ../sass/components/_misc.scss */
 p.step-right {
   margin-left: 25px;
   font-weight: bold;
@@ -1841,7 +1839,7 @@ p.step-right {
   margin-top: 20px;
 }
 
-/******************** Section Two Style **********************************/
+/******************** Welcome Section Style **********************************/
 /* line 949, ../sass/components/_misc.scss */
 div.welcome-cg {
   background-image: url("../images/section-2-top-dotted-border.jpg");
@@ -1875,12 +1873,13 @@ div.welcome-cg p {
   color: lightcyan;
 }
 
-/* line 981, ../sass/components/_misc.scss */
+/*********************** Step 1 CSS ************************/
+/* line 982, ../sass/components/_misc.scss */
 div.step-1-cg {
-  background-image: url("../images/section-3-top-squiggle-border.jpg");
-  background-position: top;
-  background-repeat: repeat-x;
   background-color: #fdfdff;
+  background-image: url("../images/section-3-top-squiggle-border.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
 }
 /* line 987, ../sass/components/_misc.scss */
 div.step-1-cg h3 {
@@ -1889,19 +1888,8 @@ div.step-1-cg h3 {
   top: 20px;
   font-weight: lighter;
 }
-
-/** Section Three **/
-/* line 998, ../sass/components/_misc.scss */
-#section-three {
-  background-color: #fdfdff;
-  background-image: url("../images/section-3-top-squiggle-border.jpg");
-  background-repeat: repeat-x;
-  width: 100%;
-}
-
-/* line 1005, ../sass/components/_misc.scss */
-.img-block {
-  padding-right: 10px;
+/* line 994, ../sass/components/_misc.scss */
+div.step-1-cg .img-block {
   width: 240px;
   height: 300px;
   position: relative;
@@ -1909,26 +1897,22 @@ div.step-1-cg h3 {
   text-align: center;
   top: 30px;
 }
-
-/* line 1016, ../sass/components/_misc.scss */
-.img-block:hover .description {
+/* line 1001, ../sass/components/_misc.scss */
+div.step-1-cg .img-block:hover .description {
   display: block;
 }
-
-/* line 1019, ../sass/components/_misc.scss */
-.img-block:hover .hover-container {
+/* line 1004, ../sass/components/_misc.scss */
+div.step-1-cg .img-block:hover .hover-container {
   background-image: url("../images/purple-cause-hover.png");
   height: 275px;
 }
-
-/* line 1024, ../sass/components/_misc.scss */
-.img-block img {
+/* line 1008, ../sass/components/_misc.scss */
+div.step-1-cg .img-block img {
   width: 100%;
   height: 100%;
 }
-
-/* line 1029, ../sass/components/_misc.scss */
-.hover-container {
+/* line 1013, ../sass/components/_misc.scss */
+div.step-1-cg .hover-container {
   display: block;
   background-image: url("../images/purple-cause-prehover.png");
   background-repeat: no-repeat;
@@ -1937,41 +1921,39 @@ div.step-1-cg h3 {
   width: 100%;
   height: 147px;
 }
-
-/* line 1039, ../sass/components/_misc.scss */
-p.headline {
+/* line 1022, ../sass/components/_misc.scss */
+div.step-1-cg p.headline {
   margin-top: 70px;
-  padding: 0;
+  padding: 5px;
   font-weight: bold;
   font-size: 14px;
   color: white;
 }
-
-/* line 1047, ../sass/components/_misc.scss */
-.description {
+/* line 1029, ../sass/components/_misc.scss */
+div.step-1-cg .description {
   display: none;
 }
-
-/* line 1051, ../sass/components/_misc.scss */
-#image-blocks {
+/* line 1032, ../sass/components/_misc.scss */
+div.step-1-cg #image-blocks {
   padding-bottom: 40px;
 }
 
-/* line 1145, ../sass/components/_misc.scss */
+/******************************** Step 2 CSS ********************/
+/* line 1038, ../sass/components/_misc.scss */
 div.step-2-cg {
   background: url("../images/hands-bg.jpg") no-repeat;
   background-image: cover;
   min-height: 300px;
   width: 100%;
 }
-/* line 1150, ../sass/components/_misc.scss */
+/* line 1043, ../sass/components/_misc.scss */
 div.step-2-cg h3 {
   color: white;
   position: relative;
   top: 30px;
   font-weight: lighter;
 }
-/* line 1157, ../sass/components/_misc.scss */
+/* line 1050, ../sass/components/_misc.scss */
 div.step-2-cg p {
   text-align: center;
   color: white;
@@ -1981,21 +1963,21 @@ div.step-2-cg p {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 1166, ../sass/components/_misc.scss */
+/* line 1059, ../sass/components/_misc.scss */
 div.step-2-cg .input-value {
   width: 50%;
   padding: 30px;
   height: 65px;
   float: right;
 }
-/* line 1173, ../sass/components/_misc.scss */
+/* line 1066, ../sass/components/_misc.scss */
 div.step-2-cg .form-div {
   width: 400px;
   margin-left: 350px;
   position: relative;
   top: 40px;
 }
-/* line 1180, ../sass/components/_misc.scss */
+/* line 1073, ../sass/components/_misc.scss */
 div.step-2-cg input[type=text] {
   width: 150px;
   padding: 12px 20px;
@@ -2009,7 +1991,8 @@ div.step-2-cg input[type=text] {
   border-radius: 2px solid white;
 }
 
-/* line 1196, ../sass/components/_misc.scss */
+/********************* Testimonial Section Style  ***************/
+/* line 1089, ../sass/components/_misc.scss */
 div.testimonial-cg {
   background-image: url("../images/lightgray-bg.gif");
   background-repeat: repeat-x;
@@ -2018,7 +2001,7 @@ div.testimonial-cg {
   min-height: 300px;
   text-rendering: optimizeLegibility;
 }
-/* line 1203, ../sass/components/_misc.scss */
+/* line 1096, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials {
   display: inline-block;
   width: 275px;
@@ -2029,7 +2012,7 @@ div.testimonial-cg .testimonials {
   margin-right: 20px;
   margin-bottom: 10px;
 }
-/* line 1212, ../sass/components/_misc.scss */
+/* line 1105, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials img.testimonials-images {
   position: relative;
   top: -50px;
@@ -2040,19 +2023,19 @@ div.testimonial-cg .testimonials img.testimonials-images {
   padding: 10px;
   border: 1px solid #dedede;
 }
-/* line 1222, ../sass/components/_misc.scss */
+/* line 1115, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details {
   text-align: center;
   font-size: 14px;
   color: #dedede;
 }
-/* line 1226, ../sass/components/_misc.scss */
+/* line 1119, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details:before {
   content: '"';
   font-color: red;
   font-size: 12px;
 }
-/* line 1231, ../sass/components/_misc.scss */
+/* line 1124, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details:after {
   content: '';
   display: block;
@@ -2062,7 +2045,7 @@ div.testimonial-cg .testimonials p.testimonials-details:after {
   border-top: solid 1px lightgrey;
   margin-top: 5px;
 }
-/* line 1241, ../sass/components/_misc.scss */
+/* line 1134, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-names {
   color: black;
   font-size: 16px;
@@ -2070,7 +2053,7 @@ div.testimonial-cg .testimonials p.testimonials-names {
   margin-bottom: 0px;
   margin-top: 20px;
 }
-/* line 1249, ../sass/components/_misc.scss */
+/* line 1142, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-type {
   font-size: 16px;
   color: green;
@@ -2078,7 +2061,8 @@ div.testimonial-cg .testimonials p.testimonials-type {
   margin-top: 0;
 }
 
-/* line 1261, ../sass/components/_misc.scss */
+/************************ Step 3 CSS ***********************/
+/* line 1154, ../sass/components/_misc.scss */
 div.step-3-cg {
   background-image: url("../images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -2087,7 +2071,7 @@ div.step-3-cg {
   height: 250px;
   text-align: center;
 }
-/* line 1268, ../sass/components/_misc.scss */
+/* line 1161, ../sass/components/_misc.scss */
 div.step-3-cg h3 {
   color: white;
   position: relative;
@@ -2096,7 +2080,7 @@ div.step-3-cg h3 {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 1277, ../sass/components/_misc.scss */
+/* line 1170, ../sass/components/_misc.scss */
 div.step-3-cg p {
   position: relative;
   top: 60px;
@@ -2104,7 +2088,7 @@ div.step-3-cg p {
   font-weight: lighter;
   line-height: 1.5;
 }
-/* line 1284, ../sass/components/_misc.scss */
+/* line 1177, ../sass/components/_misc.scss */
 div.step-3-cg button {
   width: 150px;
   background-color: #2fde91;
