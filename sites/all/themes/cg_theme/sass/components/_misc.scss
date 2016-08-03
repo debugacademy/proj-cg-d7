@@ -807,10 +807,8 @@ tr.selected td {
   }
 }
 
-/**
-* Continuous Good
-*
-*/
+/*** Continuous Good Style **/
+
 .front *
  {
    margin: 0;
@@ -835,6 +833,7 @@ tr.selected td {
    }
 
  }
+
 
 $background-color-green: #3eada7;
 $primary-font-color: #fff;
@@ -878,7 +877,7 @@ div.hero {
 }
 
 
-// Section One Action Continuous Good Style
+/********************** One Action Style  *******************/
 
 div.one-action-cg {
   background-image: url('../images/lightgray-bg.gif');
@@ -944,7 +943,8 @@ p.step-right {
   color: $paragraph-font-color;
   margin-top: 20px;
 }
-/******************** Section Two Style **********************************/
+
+/******************** Welcome Section Style **********************************/
 
 div.welcome-cg {
   background-image: url('../images/section-2-top-dotted-border.jpg');
@@ -977,7 +977,7 @@ div.welcome-cg {
   color: $span-green-text;
 }
 
-// Step 1 CSS
+/************************** Step 1 CSS ***************************/
 div.step-1-cg {
   background-image: url('../images/section-3-top-squiggle-border.jpg');
   background-position: top;
@@ -994,7 +994,7 @@ div.step-1-cg {
 
 }
 
-/** Section Three **/
+/*********************** Section Three ************************/
 #section-three {
 	background-color: #fdfdff;
 	background-image: url("../images/section-3-top-squiggle-border.jpg");
@@ -1003,12 +1003,14 @@ div.step-1-cg {
 }
 
 .img-block {
+  padding-right: 10px;
 	width: 240px;
 	height: 300px;
 	position: relative;
 	display: inline-block;
 	text-align: center;
-	margin: 25px;
+  top: 30px;
+
 }
 
 .img-block:hover .description {
@@ -1034,10 +1036,11 @@ div.step-1-cg {
 	height: 147px;
 }
 
-.headline {
-	margin-top: 32%;
+p.headline {
+	margin-top: 70px;
 	padding: 0;
 	font-weight: bold;
+  font-size: 14px;
 	color: white;
 }
 
@@ -1045,96 +1048,12 @@ div.step-1-cg {
 	display: none;
 }
 
-// .apend-cause {
-//   height: 275px;
-//   width: 210px;
-//   margin-left: 5px;
-//   display: inline-flex;
-//   img.purple-cause-prehover {
-//     position: relative;
-//     top: 125px;
-//     left: -210px;
-//     height: 150px;
-//   }
-//   img.purple-cause-hover {
-//     visibility: hidden;
-//     position: relative;
-//     top: 125px;
-//     left: -210px;
-//     height: 150px;
-//   }
-//   p.purple-cause-hover-paragraph {
-//     visibility: hidden;
-//     width: 210px;
-//     position: relative;
-//     text-align: center;
-//     color: $primary-font-color;
-//     font-size: 14px;
-//     left: -470px;
-//     top: 180px;
-//     z-index: 1;
-//   }
-//   p.purple-cause-hover-preparagraph {
-//     width: 210px;
-//     position: relative;
-//     text-align: center;
-//     color: $primary-font-color;
-//     font-size: 14px;
-//     left: -370px;
-//     top: 180px;
-//     z-index: 1;
-//   }
-//   &:hover {
-//     img.purple-cause-prehover {
-//       visibility: hidden;
-//     }
-//     img.purple-cause-hover {
-//       visibility: visible;
-//       position: static;
-//       height: 150px;
-//     }
-//     p.purple-cause-hover-paragraph {
-//       visibility: visible;
-//     }
-//
-//   }
-// }
+#image-blocks {
+  padding-bottom: 40px;
+}
 
+/******************************** Step 2 CSS ********************/
 
-// img.purple-cause-hover {
-//   width: 100%;
-// }
-//
-// img.purple-cause-prehover {
-//   width: 100%;
-// }
-// .purple-cause-hover {
-//   position: relative;
-//   top: -235px;
-// }
-//
-// .purple-cause-prehover {
-//   position: relative;
-//   top: -102px;
-// }
-//
-// p.purple-cause-hover-paragraph {
-//   position: relative;
-//   top: -340px;
-//   text-align: center;
-//   color: #CB99C9;
-//   width: 210px;
-// }
-//
-// p.purple-cause-hover-preparagraph {
-//   position: relative;
-//   top: -180px;
-//   text-align: center;
-//   color: white;
-//   width: 210px;
-// }
-
-// Step 2 CSS
 div.step-2-cg {
   background: url('../images/hands-bg.jpg') no-repeat;
   background-image: cover;
@@ -1185,7 +1104,7 @@ div.step-2-cg {
 }
 
 
-// Testimonials
+/********************* Testimonial Section Style  ***************/
 div.testimonial-cg {
   background-image: url('../images/lightgray-bg.gif');
   background-repeat: repeat-x;
@@ -1249,7 +1168,7 @@ div.testimonial-cg {
 }
 }
 
-// Step 3
+/************************ Step 3 CSS ***********************/
 
 div.step-3-cg {
   background-image: url('../images/section-2-top-dotted-border.jpg');
