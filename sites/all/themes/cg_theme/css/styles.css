@@ -1712,12 +1712,29 @@ tr.selected td {
 *
 */
 /* line 815, ../sass/components/_misc.scss */
-div.panels-ipe-sort-container {
+.front * {
   margin: 0;
   padding: 0;
 }
 
-/* line 827, ../sass/components/_misc.scss */
+/* line 821, ../sass/components/_misc.scss */
+body.front * {
+  margin: 0;
+  padding: 0;
+}
+/* line 826, ../sass/components/_misc.scss */
+body.front #page {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+/* line 832, ../sass/components/_misc.scss */
+body.front #content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 849, ../sass/components/_misc.scss */
 .font-basic, div.hero h2, div.one-action-cg h3, div.welcome-cg h3, div.step-1-cg h3, div.step-2-cg h3, div.testimonial-cg .testimonials p.testimonials-names, div.testimonial-cg .testimonials p.testimonials-type, div.step-3-cg h3, div.step-3-cg button {
   text-align: center;
   text-transform: uppercase;
@@ -1725,19 +1742,19 @@ div.panels-ipe-sort-container {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 835, ../sass/components/_misc.scss */
+/* line 857, ../sass/components/_misc.scss */
 div.content-wide {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 839, ../sass/components/_misc.scss */
+/* line 861, ../sass/components/_misc.scss */
 div.content-narrow {
   max-width: 1008px;
   margin: 0 auto;
 }
 
-/* line 843, ../sass/components/_misc.scss */
+/* line 865, ../sass/components/_misc.scss */
 div.hero {
   background-image: url("../images/Header-StockPhoto.jpg");
   background-repeat: no-repeat;
@@ -1745,14 +1762,14 @@ div.hero {
   height: 670px;
   text-align: center;
 }
-/* line 849, ../sass/components/_misc.scss */
+/* line 871, ../sass/components/_misc.scss */
 div.hero h2 {
   font-size: 28px;
   padding-top: 406px;
   color: white;
 }
 
-/* line 861, ../sass/components/_misc.scss */
+/* line 883, ../sass/components/_misc.scss */
 div.one-action-cg {
   background-image: url("../images/lightgray-bg.gif");
   background-repeat: repeat-x;
@@ -1760,8 +1777,9 @@ div.one-action-cg {
   background-color: white;
   min-height: 500px;
   text-rendering: optimizeLegibility;
+  margin: auto;
 }
-/* line 868, ../sass/components/_misc.scss */
+/* line 891, ../sass/components/_misc.scss */
 div.one-action-cg h3 {
   color: lightgrey;
   position: relative;
@@ -1769,7 +1787,7 @@ div.one-action-cg h3 {
   font-weight: lighter;
 }
 
-/* line 878, ../sass/components/_misc.scss */
+/* line 901, ../sass/components/_misc.scss */
 .bg-container {
   background-image: url("../images/circle-section1.png");
   background-repeat: no-repeat;
@@ -1780,33 +1798,33 @@ div.one-action-cg h3 {
   top: 50px;
 }
 
-/* line 888, ../sass/components/_misc.scss */
+/* line 911, ../sass/components/_misc.scss */
 .step-blocks {
   display: flex;
 }
 
-/* line 892, ../sass/components/_misc.scss */
+/* line 915, ../sass/components/_misc.scss */
 .step-block {
   flex: 1;
   padding: 1em;
   min-height: inherit;
 }
 
-/* line 898, ../sass/components/_misc.scss */
+/* line 921, ../sass/components/_misc.scss */
 img.step-inner {
   position: relative;
   left: 60px;
   top: 60px;
 }
 
-/* line 904, ../sass/components/_misc.scss */
+/* line 927, ../sass/components/_misc.scss */
 .step {
   background-image: url("../images/circle-smaller-section1.png");
   background-repeat: no-repeat;
   display: inline-flex;
 }
 
-/* line 910, ../sass/components/_misc.scss */
+/* line 933, ../sass/components/_misc.scss */
 p.step-left {
   margin-left: 80px;
   font-weight: 300;
@@ -1814,7 +1832,7 @@ p.step-left {
   color: lightgrey;
 }
 
-/* line 917, ../sass/components/_misc.scss */
+/* line 940, ../sass/components/_misc.scss */
 p.step-right {
   margin-left: 25px;
   font-weight: bold;
@@ -1824,7 +1842,7 @@ p.step-right {
 }
 
 /******************** Section Two Style **********************************/
-/* line 926, ../sass/components/_misc.scss */
+/* line 949, ../sass/components/_misc.scss */
 div.welcome-cg {
   background-image: url("../images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -1833,8 +1851,9 @@ div.welcome-cg {
   height: 320px;
   text-align: center;
   top: 0;
+  margin: auto;
 }
-/* line 934, ../sass/components/_misc.scss */
+/* line 958, ../sass/components/_misc.scss */
 div.welcome-cg h3 {
   color: white;
   position: relative;
@@ -1842,7 +1861,7 @@ div.welcome-cg h3 {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 942, ../sass/components/_misc.scss */
+/* line 966, ../sass/components/_misc.scss */
 div.welcome-cg p {
   position: relative;
   top: 80px;
@@ -1851,67 +1870,101 @@ div.welcome-cg p {
   line-height: 1.5;
 }
 
-/* line 952, ../sass/components/_misc.scss */
+/* line 976, ../sass/components/_misc.scss */
 .green-text {
   color: lightcyan;
 }
 
-/* line 957, ../sass/components/_misc.scss */
+/* line 981, ../sass/components/_misc.scss */
 div.step-1-cg {
   background-image: url("../images/section-3-top-squiggle-border.jpg");
   background-position: top;
   background-repeat: repeat-x;
   background-color: #fdfdff;
-  overflow: hidden;
 }
-/* line 963, ../sass/components/_misc.scss */
+/* line 987, ../sass/components/_misc.scss */
 div.step-1-cg h3 {
   color: gray;
   position: relative;
   top: 20px;
   font-weight: lighter;
 }
-/* line 970, ../sass/components/_misc.scss */
-div.step-1-cg .apend-cause {
-  height: 275px;
-  width: 210px;
-  margin-left: 5px;
-  display: inline-flex;
-}
-/* line 975, ../sass/components/_misc.scss */
-div.step-1-cg .apend-cause img.purple-cause-prehover {
-  position: relative;
-  top: 125px;
-  left: -210px;
-  height: 150px;
-}
-/* line 981, ../sass/components/_misc.scss */
-div.step-1-cg .apend-cause p.purple-cause-hover-preparagraph {
-  width: 210px;
-  position: relative;
-  text-align: center;
-  color: white;
-  font-size: 14px;
-  left: -370px;
-  top: 180px;
-  z-index: 1;
+
+/** Section Three **/
+/* line 998, ../sass/components/_misc.scss */
+#section-three {
+  background-color: #fdfdff;
+  background-image: url("../images/section-3-top-squiggle-border.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
 }
 
-/* line 1031, ../sass/components/_misc.scss */
+/* line 1005, ../sass/components/_misc.scss */
+.img-block {
+  width: 240px;
+  height: 300px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 25px;
+}
+
+/* line 1014, ../sass/components/_misc.scss */
+.img-block:hover .description {
+  display: block;
+}
+
+/* line 1017, ../sass/components/_misc.scss */
+.img-block:hover .hover-container {
+  background-image: url("../images/purple-cause-hover.png");
+  height: 275px;
+}
+
+/* line 1022, ../sass/components/_misc.scss */
+.img-block img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1027, ../sass/components/_misc.scss */
+.hover-container {
+  display: block;
+  background-image: url("../images/purple-cause-prehover.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 147px;
+}
+
+/* line 1037, ../sass/components/_misc.scss */
+.headline {
+  margin-top: 32%;
+  padding: 0;
+  font-weight: bold;
+  color: white;
+}
+
+/* line 1044, ../sass/components/_misc.scss */
+.description {
+  display: none;
+}
+
+/* line 1138, ../sass/components/_misc.scss */
 div.step-2-cg {
   background: url("../images/hands-bg.jpg") no-repeat;
   background-image: cover;
   min-height: 300px;
   width: 100%;
 }
-/* line 1036, ../sass/components/_misc.scss */
+/* line 1143, ../sass/components/_misc.scss */
 div.step-2-cg h3 {
   color: white;
   position: relative;
   top: 30px;
   font-weight: lighter;
 }
-/* line 1043, ../sass/components/_misc.scss */
+/* line 1150, ../sass/components/_misc.scss */
 div.step-2-cg p {
   text-align: center;
   color: white;
@@ -1921,21 +1974,21 @@ div.step-2-cg p {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 1052, ../sass/components/_misc.scss */
+/* line 1159, ../sass/components/_misc.scss */
 div.step-2-cg .input-value {
   width: 50%;
   padding: 30px;
   height: 65px;
   float: right;
 }
-/* line 1059, ../sass/components/_misc.scss */
+/* line 1166, ../sass/components/_misc.scss */
 div.step-2-cg .form-div {
   width: 400px;
   margin-left: 350px;
   position: relative;
   top: 40px;
 }
-/* line 1066, ../sass/components/_misc.scss */
+/* line 1173, ../sass/components/_misc.scss */
 div.step-2-cg input[type=text] {
   width: 150px;
   padding: 12px 20px;
@@ -1949,7 +2002,7 @@ div.step-2-cg input[type=text] {
   border-radius: 2px solid white;
 }
 
-/* line 1082, ../sass/components/_misc.scss */
+/* line 1189, ../sass/components/_misc.scss */
 div.testimonial-cg {
   background-image: url("../images/lightgray-bg.gif");
   background-repeat: repeat-x;
@@ -1958,17 +2011,18 @@ div.testimonial-cg {
   min-height: 300px;
   text-rendering: optimizeLegibility;
 }
-/* line 1089, ../sass/components/_misc.scss */
+/* line 1196, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials {
   display: inline-block;
   width: 275px;
-  height: 380px;
+  height: 350px;
   border: 1px solid #dedede;
   margin-top: 75px;
   padding: 10px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
-/* line 1097, ../sass/components/_misc.scss */
+/* line 1205, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials img.testimonials-images {
   position: relative;
   top: -50px;
@@ -1979,19 +2033,19 @@ div.testimonial-cg .testimonials img.testimonials-images {
   padding: 10px;
   border: 1px solid #dedede;
 }
-/* line 1107, ../sass/components/_misc.scss */
+/* line 1215, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details {
   text-align: center;
   font-size: 14px;
   color: #dedede;
 }
-/* line 1111, ../sass/components/_misc.scss */
+/* line 1219, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details:before {
   content: '"';
   font-color: red;
   font-size: 12px;
 }
-/* line 1116, ../sass/components/_misc.scss */
+/* line 1224, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details:after {
   content: '';
   display: block;
@@ -2001,15 +2055,15 @@ div.testimonial-cg .testimonials p.testimonials-details:after {
   border-top: solid 1px lightgrey;
   margin-top: 5px;
 }
-/* line 1126, ../sass/components/_misc.scss */
+/* line 1234, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-names {
   color: black;
   font-size: 16px;
   font-weight: bolder;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 20px;
 }
-/* line 1134, ../sass/components/_misc.scss */
+/* line 1242, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-type {
   font-size: 16px;
   color: green;
@@ -2017,7 +2071,7 @@ div.testimonial-cg .testimonials p.testimonials-type {
   margin-top: 0;
 }
 
-/* line 1146, ../sass/components/_misc.scss */
+/* line 1254, ../sass/components/_misc.scss */
 div.step-3-cg {
   background-image: url("../images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -2026,7 +2080,7 @@ div.step-3-cg {
   height: 250px;
   text-align: center;
 }
-/* line 1153, ../sass/components/_misc.scss */
+/* line 1261, ../sass/components/_misc.scss */
 div.step-3-cg h3 {
   color: white;
   position: relative;
@@ -2035,20 +2089,20 @@ div.step-3-cg h3 {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 1162, ../sass/components/_misc.scss */
+/* line 1270, ../sass/components/_misc.scss */
 div.step-3-cg p {
   position: relative;
-  top: 30px;
+  top: 60px;
   color: #76eec6;
   font-weight: lighter;
   line-height: 1.5;
 }
-/* line 1169, ../sass/components/_misc.scss */
+/* line 1277, ../sass/components/_misc.scss */
 div.step-3-cg button {
   width: 150px;
   background-color: #2fde91;
   position: relative;
-  top: 35px;
+  top: 70px;
   padding: 15px 32px;
   color: white;
   font-size: 16px;
@@ -2056,90 +2110,6 @@ div.step-3-cg button {
   display: inline-block;
   cursor: pointer;
   border: none;
-}
-
-/* line 1187, ../sass/components/_misc.scss */
-div.subscribe-cg {
-  background-image: url("../images/section-3-top-squiggle-border.jpg");
-  background-position: top;
-  background-repeat: repeat-x;
-  background-color: #fdfdff;
-  height: 200px;
-}
-/* line 1193, ../sass/components/_misc.scss */
-div.subscribe-cg.row {
-  margin: auto;
-  top: 20px;
-  position: relative;
-  overflow: hidden;
-  padding: 20px;
-  display: inline-flex;
-}
-/* line 1201, ../sass/components/_misc.scss */
-div.subscribe-cg .newsletter-box {
-  padding: 5px;
-  width: 100%;
-  display: inline-block;
-}
-/* line 1206, ../sass/components/_misc.scss */
-div.subscribe-cg .newsletter-text {
-  color: #00416A;
-  font-size: 16px;
-  margin-left: 60px;
-}
-/* line 1211, ../sass/components/_misc.scss */
-div.subscribe-cg .newsletter-subscribe {
-  color: #078989;
-  font-size: 18px;
-  font-style: normal;
-  position: relative;
-  top: -20px;
-  margin-left: 180px;
-}
-/* line 1220, ../sass/components/_misc.scss */
-div.subscribe-cg .subscribe-box {
-  width: 100%;
-  border: 3px solid lightblue;
-  height: 70px;
-  padding: 5px 5px;
-}
-/* line 1226, ../sass/components/_misc.scss */
-div.subscribe-cg .email-form-submit {
-  position: relative;
-  width: 30%;
-  padding: 1em 1.5em;
-  margin: 2em auto;
-  color: #fff;
-  background: darkblue;
-}
-/* line 1234, ../sass/components/_misc.scss */
-div.subscribe-cg .email-form-submit:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-width: 0 16px 16px 0;
-  border-style: solid;
-  border-color: #fff #fff darkblue darkblue;
-  background: darkblue;
-  -webkit-box-shadow: 0 1px 1px darkblue, -1px 1px 1px darkblue;
-  -moz-box-shadow: 0 1px 1px darkblue, -1px 1px 1px darkblue;
-  box-shadow: 0 1px 1px darkblue, -1px 1px 1px darkblue;
-  /* Firefox 3.0 damage limitation */
-  display: block;
-  width: 0;
-}
-/* line 1250, ../sass/components/_misc.scss */
-div.subscribe-cg .email-form-submit.rounded {
-  -moz-border-radius: 5px 0 5px 5px;
-  border-radius: 5px 0 5px 5px;
-}
-/* line 1255, ../sass/components/_misc.scss */
-div.subscribe-cg .email-form-submit.rounded:before {
-  border-width: 8px;
-  border-color: #fff #fff transparent transparent;
-  -moz-border-radius: 0 0 0 5px;
-  border-radius: 0 0 0 5px;
 }
 
 /**
