@@ -182,6 +182,14 @@ Continuous Good Changes
     text-transform: uppercase;
   }
 
+  input {
+    margin-right: 10px;
+  }
+
+  .form {
+    margin-bottom: 15px;
+  }
+  
   #welcome-section {
     background: url("../images/section-2-top-dotted-border.jpg") top;
     background-repeat: repeat-x;
@@ -189,6 +197,14 @@ Continuous Good Changes
     color: #ffffff;
     height: 50%;
     text-align: center;
+    h3 {
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+
+    #continuous-good {
+      font-weight: bold;
+    }
   }
 
   #step-one {
