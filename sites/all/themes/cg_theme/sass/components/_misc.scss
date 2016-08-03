@@ -73,6 +73,192 @@
   }
 }
 
+/*
+Continuous Good Changes
+*/
+
+.front {
+  /* Insert here */
+  h2 {
+    text-transform: uppercase;
+  }
+
+  .pane-title {
+    text-align: center;
+  }
+
+  #hero, #step-section, #welcome-section, #step-section, #step-one, #step-two, #testimonials, #step-three, #subscribe {
+    width: 1454px;
+    overflow: hidden;
+
+  }
+
+  #hero {
+    background-image: url("../images/Header-StockPhoto.jpg");
+    background-size: cover;  
+    height: 671px;
+  }
+
+  #hero h2{
+    color: #fff;
+    position: relative;
+    top: 400px;
+  }
+
+  .overlay {
+    text-align: center;
+
+  }
+
+  #give-forward {
+    position: relative;
+    top: 380px;
+    left: 500px;
+  }
+
+  element.style {
+    text-align: center;
+  }
+
+  .step-blocks {
+    text-align: center;
+  }
+  .step-block {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .num-container {
+    background: url("../images/circle-smaller-section1.png") left no-repeat;
+    width: 66px;
+    height: 66px;
+    position: relative;
+    left: -20px;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .step-num {
+    position: absolute;
+    top: -2px;
+    left: 27px;
+  }
+
+  .text-container {
+    text-align: center;
+  }
+
+  .step-text {
+    text-align: center;
+  }
+
+  .bg-container {
+    background: url("../images/circle-section1.png") no-repeat;
+    width: 199px;
+    height: 200px;
+    position: relative;
+  }
+
+  .step-inner {
+    position: absolute;
+      top: 50px;
+      left: 50px;
+      height: 50%;
+      width: 50%;
+  }
+
+  #step-section {
+    background: url("../images/lightgray-bg.gif") bottom;
+    background-color: #ffffff;
+    height: 50%;
+  }
+
+  #step-section .pane-title{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  input {
+    margin-right: 10px;
+  }
+
+  .form {
+    margin-bottom: 15px;
+  }
+  
+  #welcome-section {
+    background: url("../images/section-2-top-dotted-border.jpg") top;
+    background-repeat: repeat-x;
+    background-color: #3eada7;
+    color: #ffffff;
+    height: 50%;
+    text-align: center;
+    h3 {
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+
+    #continuous-good {
+      font-weight: bold;
+    }
+  }
+
+  #step-one {
+    background: url("../images/section-3-top-squiggle-border.jpg") top;
+    background-repeat: repeat-x;
+    background-color: #fdfdff;
+  }
+
+  #step-two {
+    background-image: url("../images/hands-bg.jpg");
+    color: #ffffff;
+    text-align: center;
+  }
+
+  #step-three {
+    background: url("../images/section-2-top-dotted-border.jpg") top;
+    background-repeat: repeat-x;
+    color: #ffffff;
+    background-color: #3eada7;
+    text-align: center;
+  }
+
+  #subscribe {
+    background: url("../images/section-2-top-squiggle-border.jpg") top;
+    background-color: #fdfdff;
+    text-align: center;
+  }
+
+  .img-block {
+    background-image: url("../images/purple-cause-prehover.png");
+    background-repeat: no-repeat;
+  }
+
+  .img-block:hover {
+    background-image: url("../images/purple-cause-hover.png");
+    background-repeat: no-repeat;
+  }
+
+  .img-block img{
+    height: auto;
+    width: auto;
+  }
+
+  #submit {
+    text-align: center;
+  }
+
+  .submit{
+    color: #ffffff;
+    background-color: #2fde91;
+  }
+
+}
+
+
+
 /**
  * Branding header.
  */
