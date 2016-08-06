@@ -9,5 +9,7 @@
 * Implements hook_enable().
 */
 function cg_main_enable() {
-
+	$default_theme = 'cg_theme';
+	theme_enable(array($default_theme));
+	variable_set('theme_default', $default_theme);
 }
