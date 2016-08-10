@@ -805,4 +805,356 @@ tr.selected td {
     background-color: #0072b9;
     background-image: image-url("progress.gif");
   }
+
 }
+
+.front {
+	.panel-pane {
+		&.hero {
+			background-image: url('http://dev-1.academyvm.dev/proj-cg/sites/all/themes/cg_theme/images/Header-StockPhoto.jpg');
+	height: 600px;
+	width:100%;
+		}
+	h2.overlay{
+	position:absolute;
+	color:white;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align:center;
+	margin-top:40px;
+	bottom:15%;
+	left: 15%;
+	}
+a.overlay{
+	margin-left:20px;
+	width:24%;
+	position: absolute;
+	bottom: 6%;
+	left: 38%;
+	
+}
+
+	
+	/*
+	width: 70%;
+	
+	color: white;
+	text-align: center;*/
+	}
+	}
+	
+.one-cg{
+	background-image: url('../images/section-3-top-squiggle-border.jpg');
+	background-position: top;
+	background-repeat:repeat-x;
+	text-align:center;
+	text-transform: uppercase;
+}
+	.bg-container{
+		background-image: url("https://github.com/debugacademy/da-assignments/blob/master/hw_005/continuousgood/images/circle-section1.png?raw=true"); 
+		position: relative;
+		width:200px;
+		height:200px;
+	}
+	.step-inner{
+		position: absolute;
+		top: 10px;
+		left: 70px;
+		height:80px;
+		width:80px;
+		z-index: 1;
+		margin-top: 42px;
+		background-color: white;
+		}
+	.step-num{
+		background-image: url("https://github.com/debugacademy/da-assignments/blob/master/hw_005/continuousgood/images/circle-smaller-section1.png?raw=true");
+		repeat: no-repeat;
+		height:20px;
+		width:30px;
+		z-index: 1;
+		background-color: white;
+		}
+	.step-text{
+		right:30px;
+	}
+	
+	div.content-narrow {
+		max-width:1008px;
+		margin: 0 auto;
+	}
+	
+.welcome-cg{
+	background-image: url('../images/section-2-top-dotted-border.jpg');
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #009999;
+	height: 320px;
+	text-align: center;
+	color:white;
+	h3{
+		text-transform:uppercase;
+		position:relative;
+		top:50px;
+		font-size:40px;
+		font-weight:lighter;
+	}
+	p{
+		position:relative;
+		top:70px;
+		font-size:16px;
+		color: #b1b18b;
+	}
+}
+
+/*.secion-three{
+	background-image: url('../images/section-3-top-squiggle-border.jpg');
+	background-position: top;
+	background-color:#3eada7;
+	}
+	.secion-three >div{
+		background-repeat: repeat-x;
+	}
+	.image1{
+		background-repeat: repeat-x;
+		background-position: top;
+		left:0;
+		top:0;
+		height:25%;
+		width:25%;
+		padding: 5px;
+		}
+	.image2{
+		background-repeat: repeat-x;
+		background-position: top;
+		left:0;
+		top:0;
+		height:25%;
+		width:25%;
+		padding: 5px;
+		}*/
+
+.section-three{
+	margin-top:10px;
+	background-image: url('../images/section-3-top-squiggle-border.jpg');
+	background-position: top;
+	background-repeat:repeat-x;
+	h3{
+		text-align:center;
+	}
+	div .image1{
+		display: inline-block;
+		top: 25px;
+		left:25px;
+		z-index:1;
+		position:relative;
+		height:250px;
+		width:200px;
+		margin-top:-160px;
+		}
+		.purple-cause-prehover{
+			position:relative;
+			top:-80px;
+			height:100%
+		}
+		.purple-cause-prehover-paragraph{
+			position:absolute;
+			top:178px;
+			color:white;
+		}
+		div .image2{
+			display: inline-block;
+			top: 70px;
+			left:25px;
+			z-index:3;
+			position:relative;
+			height:200px;
+			width:200px;
+		}
+		.purple-cause-hover{
+			position:relative;
+			top:-120px;
+			height:150%;
+		}
+		.purple-cause-hover-paragraph{
+			position:absolute;
+			top:80px;
+			color:white;
+		}
+	}
+
+.section-four{
+	background-image: url('../images/hands-bg.jpg');
+	background-position: top;
+	background-repeat: repeat-x;
+	height: 300px;
+	text-align: center;
+	color:white;
+	h3{
+		position:relative;
+		text-transform:uppercase;
+		top:70px;
+	}
+	p{
+		position:relative;
+		top:70px;
+	}
+	.amount {
+		background-color: white;
+		border: none;
+		color: black;
+		padding: 15px 80px;
+		text-align: left;
+		display: inline-block;
+		font-size: 16px;
+		right:250px;
+		top:80px;
+		position:relative;
+	}
+	.frequency {
+		background-color: white;
+		border: none;
+		color: black;
+		padding: 15px 80px;
+		text-align: left;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		left: 50px;
+		top:80px;
+		position:relative;
+			.dropdown-menu-right{
+				position:relative;
+			}
+	}
+}
+
+.section-six{
+	background-image: url('../images/section-2-top-dotted-border.jpg');
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #3eada7;
+	height: 250px;
+	text-align: center;
+	h3{
+		text-transform:uppercase;
+		position:relative;
+		top:20px;
+		color:white;
+		text-align:center;
+	}
+	p{
+		position:relative;
+		top:50px;
+		color:#66ffff;
+	}
+	.submit{
+		background-color:  #2fde91;
+		border: none;
+		color: black;
+		padding: 15px 80px;
+		text-align: left;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		position:relative;
+		top:80px;
+	}
+}
+ 
+ .section-five{
+	background-image: url('../images/section-3-top-squiggle-border.jpg');
+	background-position: top;
+	background-repeat:repeat-x;
+	}
+	div.section-five .testimonials {
+		border: 2px solid #e0e0d1;
+		height:350px;
+		width:200px;
+		margin-top: 75px;
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 7px;
+		display:inline-block;;
+	}
+	div.section-five .testimonials img.image {
+		display:inline-block;
+		height: 70px;
+		width: 70px;
+		position: relative;
+		top: -60px;
+		left: 55px;
+		right:55px;
+		padding: 7px;
+		border-radius: 60%;
+		border: 1px solid #d6d6c2;
+	}
+	div.section-five .testimonials p.text {
+		display:inline-block;
+		color: #a3a375;
+		text-align: center;
+		font-size: 13.5px;
+		margin-top:-40px;
+	}
+	div.section-five .testimonials p.name {
+		display:inline-block;
+		color: black;
+		text-align:center;
+		font-size: 16px;
+		font-weight: bold; 
+		text-transform:uppercase;
+	}
+	div.section-five .testimonials p.title {
+		display:inline-block;
+		text-align:center;
+		font-size: 16px;
+		color: green;
+	}
+	
+ .section-seven{
+	background-image: url('../images/section-3-top-squiggle-border.jpg');
+	background-position: top;
+	background-repeat:repeat-x;
+	background-color: #fdfdff;
+	height:150px;
+	}
+	p{
+		top:20px;
+		color:#204060;
+		font-size:20px;
+		position:relative;
+	}
+	div.button{
+		position: relative;
+		right: -600px;
+		top: -10px;
+	}
+	button, input{
+		/*position:absolute;
+		right: 1%;
+		top: -50px;*/
+	}
+
+.footer{
+	background-color:#060d13;
+	color:white;
+	width:100%;
+	height:150px;
+	clear:both;
+	text-transform:uppercase;
+	font-size:18px;
+	padding:10px;
+	#title{
+		display:inline-block;
+		padding: 10px;
+		margin-bottom: 30px;
+		text-align: justify;
+		text-decoration: none;
+	}
+}
+
+
+ 
+ 
+ 
+
+
