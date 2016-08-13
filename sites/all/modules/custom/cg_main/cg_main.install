@@ -13,6 +13,20 @@ function cg_main_enable() {
   theme_enable(array($default_theme));
   variable_set('theme_default', $default_theme);
   
-  $modules = array('cg_pages');
+  $modules = array('cg_pages', 'admin_menu_toolbar');
+  $disabled = array('toolbar');
   module_enable($modules);
+  module_disable($disabled);
+}
+
+/**
+* Enables 'admin_menu_toolbar' ('admin_menu') module and disables 'toolbar' module.
+*/
+
+function cg_main_update_7001(&$sandbox){
+  $modules = array('admin_menu_toolbar');
+  $disabled = array('toolbar');
+
+  module_enable($modules);
+  module_disable($disabled);
 }
