@@ -14,4 +14,3 @@ function cg_main_enable() {
   variable_set('theme_default', $default_theme);
   module_enable(array('cg_pages'));
 }
-}
