@@ -14,5 +14,7 @@ function cg_main_enable() {
   variable_set('theme_default', $default_theme);
   
   $modules = array('cg_pages', 'admin_menu_toolbar');
+  $disabled = arrary('toolbar');
   module_enable($modules);
+  module_disable($disabled);
 }
