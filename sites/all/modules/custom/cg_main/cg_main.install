@@ -23,6 +23,6 @@ function cg_main_enable() {
 */
 
 function cg_main_update_7100(&$sandbox) {
-  module_enable((array('admin_menu_toolbar', 'cg_backend'));
+  module_enable(array('admin_menu_toolbar', 'cg_backend'));
   module_disable(array('toolbar'));
 }
