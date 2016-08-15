@@ -13,7 +13,7 @@ function cg_main_enable() {
   theme_enable(array($default_theme));
   variable_set('theme_default', $default_theme);
 
-  $modules = (array('cg_pages', 'admin_menu_toolbar'));
+  $modules = (array('cg_pages', 'admin_menu_toolbar', 'cg_backend'));
   module_enable($modules);
   module_disable(array('toolbar'));
 }
@@ -23,6 +23,6 @@ function cg_main_enable() {
 */
 
 function cg_main_update_7100(&$sandbox) {
-  module_enable((array('admin_menu_toolbar'));
+  module_enable((array('admin_menu_toolbar', 'cg_backend'));
   module_disable(array('toolbar'));
 }
