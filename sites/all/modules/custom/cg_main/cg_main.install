@@ -16,3 +16,9 @@ function cg_main_enable() {
   $modules = array('cg_pages', 'cg_backend');
   module_enable($modules);
 }
+
+function cg_main_update_7002(&$sandbox){
+  $modules = array('cg_backend');
+
+  module_enable($modules);
+}
