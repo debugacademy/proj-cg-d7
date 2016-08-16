@@ -13,6 +13,12 @@ function cg_main_enable() {
   theme_enable(array($default_theme));
   variable_set('theme_default', $default_theme);
   
-  $modules = array('cg_pages');
+  $modules = array('cg_pages', 'cg_backend');
+  module_enable($modules);
+}
+
+function cg_main_update_7002(&$sandbox){
+  $modules = array('cg_backend');
+
   module_enable($modules);
 }
