@@ -23,7 +23,7 @@ function cg_main_enable() {
   } 
 
   if (variable_get($cg_backend_prod) == 0) {
-  	module_enable(array('views_ui', 'devel'))  
+  	module_enable(array('views_ui', 'devel'));  
   }
 
 
