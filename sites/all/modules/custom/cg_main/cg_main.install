@@ -15,4 +15,16 @@ function cg_main_enable() {
   
   $modules = array('cg_pages');
   module_enable($modules);
+
+  $cg_backend_prod = 'cg_backend_prod';
+  
+  if (variable_get($cg_backend_prod) == null){
+  	variable_set($cg_backend_prod, 0);
+  } 
+
+  if (variable_get($cg_backend_prod) == 0) {
+  	module_enable(array('views_ui', 'devel'));  
+  }
+
+
 }
