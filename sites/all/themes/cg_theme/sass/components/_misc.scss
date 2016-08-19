@@ -834,6 +834,15 @@ tr.selected td {
 
  }
 
+ #header {
+  display: inline-block;
+  font: caption;
+  color:  #40a2c9;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+ }
+
 
 $background-color-green: #3eada7;
 $primary-font-color: #fff;
