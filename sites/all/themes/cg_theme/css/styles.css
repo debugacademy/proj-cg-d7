@@ -1704,7 +1704,7 @@ tr.selected td {
 /* line 804, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1469580320');
+  background-image: url('../images/progress.gif?1470842736');
 }
 
 /*** Continuous Good Style **/
@@ -1731,7 +1731,47 @@ body.front #content {
   padding-right: 0;
 }
 
-/* line 848, ../sass/components/_misc.scss */
+/* line 837, ../sass/components/_misc.scss */
+#header {
+  font: caption;
+  color: #40a2c9;
+  background-color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 auto;
+  width: 86%;
+  margin-left: 13%;
+  margin-bottom: -4%;
+}
+
+/* line 849, ../sass/components/_misc.scss */
+#main-menu {
+  float: right;
+  padding-right: 25%;
+  padding-top: 2%;
+}
+
+/* line 855, ../sass/components/_misc.scss */
+#main-menu a {
+  color: #40a2c9;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* line 862, ../sass/components/_misc.scss */
+#main-menu a:hover {
+  color: white;
+  background-color: #8ccae3;
+  padding: 10px;
+}
+
+/* line 868, ../sass/components/_misc.scss */
+#navigation {
+  position: static;
+}
+
+/* line 883, ../sass/components/_misc.scss */
 .font-basic, div.hero h2, div.one-action-cg h3, div.welcome-cg h3, div.step-1-cg h3, div.step-2-cg h3, div.testimonial-cg .testimonials p.testimonials-names, div.testimonial-cg .testimonials p.testimonials-type, div.step-3-cg h3, div.step-3-cg button {
   text-align: center;
   text-transform: uppercase;
@@ -1739,19 +1779,19 @@ body.front #content {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 856, ../sass/components/_misc.scss */
+/* line 891, ../sass/components/_misc.scss */
 div.content-wide {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 860, ../sass/components/_misc.scss */
+/* line 895, ../sass/components/_misc.scss */
 div.content-narrow {
   max-width: 1008px;
   margin: 0 auto;
 }
 
-/* line 864, ../sass/components/_misc.scss */
+/* line 899, ../sass/components/_misc.scss */
 div.hero {
   background-image: url("../images/Header-StockPhoto.jpg");
   background-repeat: no-repeat;
@@ -1759,7 +1799,7 @@ div.hero {
   height: 670px;
   text-align: center;
 }
-/* line 870, ../sass/components/_misc.scss */
+/* line 905, ../sass/components/_misc.scss */
 div.hero h2 {
   font-size: 28px;
   padding-top: 406px;
@@ -1767,7 +1807,7 @@ div.hero h2 {
 }
 
 /********************** One Action Style  *******************/
-/* line 882, ../sass/components/_misc.scss */
+/* line 917, ../sass/components/_misc.scss */
 div.one-action-cg {
   background-image: url("../images/lightgray-bg.gif");
   background-repeat: repeat-x;
@@ -1777,7 +1817,7 @@ div.one-action-cg {
   text-rendering: optimizeLegibility;
   margin: auto;
 }
-/* line 890, ../sass/components/_misc.scss */
+/* line 925, ../sass/components/_misc.scss */
 div.one-action-cg h3 {
   color: lightgrey;
   position: relative;
@@ -1785,7 +1825,7 @@ div.one-action-cg h3 {
   font-weight: lighter;
 }
 
-/* line 900, ../sass/components/_misc.scss */
+/* line 935, ../sass/components/_misc.scss */
 .bg-container {
   background-image: url("../images/circle-section1.png");
   background-repeat: no-repeat;
@@ -1796,33 +1836,33 @@ div.one-action-cg h3 {
   top: 50px;
 }
 
-/* line 910, ../sass/components/_misc.scss */
+/* line 945, ../sass/components/_misc.scss */
 .step-blocks {
   display: flex;
 }
 
-/* line 914, ../sass/components/_misc.scss */
+/* line 949, ../sass/components/_misc.scss */
 .step-block {
   flex: 1;
   padding: 1em;
   min-height: inherit;
 }
 
-/* line 920, ../sass/components/_misc.scss */
+/* line 955, ../sass/components/_misc.scss */
 img.step-inner {
   position: relative;
   left: 60px;
   top: 60px;
 }
 
-/* line 926, ../sass/components/_misc.scss */
+/* line 961, ../sass/components/_misc.scss */
 .step {
   background-image: url("../images/circle-smaller-section1.png");
   background-repeat: no-repeat;
   display: inline-flex;
 }
 
-/* line 932, ../sass/components/_misc.scss */
+/* line 967, ../sass/components/_misc.scss */
 p.step-left {
   margin-left: 80px;
   font-weight: 300;
@@ -1830,7 +1870,7 @@ p.step-left {
   color: lightgrey;
 }
 
-/* line 939, ../sass/components/_misc.scss */
+/* line 974, ../sass/components/_misc.scss */
 p.step-right {
   margin-left: 25px;
   font-weight: bold;
@@ -1840,7 +1880,7 @@ p.step-right {
 }
 
 /******************** Welcome Section Style **********************************/
-/* line 949, ../sass/components/_misc.scss */
+/* line 984, ../sass/components/_misc.scss */
 div.welcome-cg {
   background-image: url("../images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -1851,7 +1891,7 @@ div.welcome-cg {
   top: 0;
   margin: auto;
 }
-/* line 958, ../sass/components/_misc.scss */
+/* line 993, ../sass/components/_misc.scss */
 div.welcome-cg h3 {
   color: white;
   position: relative;
@@ -1859,7 +1899,7 @@ div.welcome-cg h3 {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 966, ../sass/components/_misc.scss */
+/* line 1001, ../sass/components/_misc.scss */
 div.welcome-cg p {
   position: relative;
   top: 80px;
@@ -1868,27 +1908,27 @@ div.welcome-cg p {
   line-height: 1.5;
 }
 
-/* line 976, ../sass/components/_misc.scss */
+/* line 1011, ../sass/components/_misc.scss */
 .green-text {
   color: lightcyan;
 }
 
 /*********************** Step 1 CSS ************************/
-/* line 982, ../sass/components/_misc.scss */
+/* line 1017, ../sass/components/_misc.scss */
 div.step-1-cg {
   background-color: #fdfdff;
   background-image: url("../images/section-3-top-squiggle-border.jpg");
   background-repeat: repeat-x;
   width: 100%;
 }
-/* line 987, ../sass/components/_misc.scss */
+/* line 1022, ../sass/components/_misc.scss */
 div.step-1-cg h3 {
   color: gray;
   position: relative;
   top: 20px;
   font-weight: lighter;
 }
-/* line 994, ../sass/components/_misc.scss */
+/* line 1029, ../sass/components/_misc.scss */
 div.step-1-cg .img-block {
   width: 240px;
   height: 300px;
@@ -1897,21 +1937,21 @@ div.step-1-cg .img-block {
   text-align: center;
   top: 30px;
 }
-/* line 1001, ../sass/components/_misc.scss */
+/* line 1036, ../sass/components/_misc.scss */
 div.step-1-cg .img-block:hover .description {
   display: block;
 }
-/* line 1004, ../sass/components/_misc.scss */
+/* line 1039, ../sass/components/_misc.scss */
 div.step-1-cg .img-block:hover .hover-container {
   background-image: url("../images/purple-cause-hover.png");
   height: 275px;
 }
-/* line 1008, ../sass/components/_misc.scss */
+/* line 1043, ../sass/components/_misc.scss */
 div.step-1-cg .img-block img {
   width: 100%;
   height: 100%;
 }
-/* line 1013, ../sass/components/_misc.scss */
+/* line 1048, ../sass/components/_misc.scss */
 div.step-1-cg .hover-container {
   display: block;
   background-image: url("../images/purple-cause-prehover.png");
@@ -1921,7 +1961,7 @@ div.step-1-cg .hover-container {
   width: 100%;
   height: 147px;
 }
-/* line 1022, ../sass/components/_misc.scss */
+/* line 1057, ../sass/components/_misc.scss */
 div.step-1-cg p.headline {
   margin-top: 70px;
   padding: 5px;
@@ -1929,31 +1969,31 @@ div.step-1-cg p.headline {
   font-size: 14px;
   color: white;
 }
-/* line 1029, ../sass/components/_misc.scss */
+/* line 1064, ../sass/components/_misc.scss */
 div.step-1-cg .description {
   display: none;
 }
-/* line 1032, ../sass/components/_misc.scss */
+/* line 1067, ../sass/components/_misc.scss */
 div.step-1-cg #image-blocks {
   padding-bottom: 40px;
 }
 
 /******************************** Step 2 CSS ********************/
-/* line 1038, ../sass/components/_misc.scss */
+/* line 1073, ../sass/components/_misc.scss */
 div.step-2-cg {
   background: url("../images/hands-bg.jpg") no-repeat;
   background-image: cover;
   min-height: 300px;
   width: 100%;
 }
-/* line 1043, ../sass/components/_misc.scss */
+/* line 1078, ../sass/components/_misc.scss */
 div.step-2-cg h3 {
   color: white;
   position: relative;
   top: 30px;
   font-weight: lighter;
 }
-/* line 1050, ../sass/components/_misc.scss */
+/* line 1085, ../sass/components/_misc.scss */
 div.step-2-cg p {
   text-align: center;
   color: white;
@@ -1963,21 +2003,21 @@ div.step-2-cg p {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 1059, ../sass/components/_misc.scss */
+/* line 1094, ../sass/components/_misc.scss */
 div.step-2-cg .input-value {
   width: 50%;
   padding: 30px;
   height: 65px;
   float: right;
 }
-/* line 1066, ../sass/components/_misc.scss */
+/* line 1101, ../sass/components/_misc.scss */
 div.step-2-cg .form-div {
   width: 400px;
   margin-left: 350px;
   position: relative;
   top: 40px;
 }
-/* line 1073, ../sass/components/_misc.scss */
+/* line 1108, ../sass/components/_misc.scss */
 div.step-2-cg input[type=text] {
   width: 150px;
   padding: 12px 20px;
@@ -1992,7 +2032,7 @@ div.step-2-cg input[type=text] {
 }
 
 /********************* Testimonial Section Style  ***************/
-/* line 1089, ../sass/components/_misc.scss */
+/* line 1124, ../sass/components/_misc.scss */
 div.testimonial-cg {
   background-image: url("../images/lightgray-bg.gif");
   background-repeat: repeat-x;
@@ -2001,7 +2041,7 @@ div.testimonial-cg {
   min-height: 300px;
   text-rendering: optimizeLegibility;
 }
-/* line 1096, ../sass/components/_misc.scss */
+/* line 1131, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials {
   display: inline-block;
   width: 275px;
@@ -2012,7 +2052,7 @@ div.testimonial-cg .testimonials {
   margin-right: 20px;
   margin-bottom: 10px;
 }
-/* line 1105, ../sass/components/_misc.scss */
+/* line 1140, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials img.testimonials-images {
   position: relative;
   top: -50px;
@@ -2023,19 +2063,19 @@ div.testimonial-cg .testimonials img.testimonials-images {
   padding: 10px;
   border: 1px solid #dedede;
 }
-/* line 1115, ../sass/components/_misc.scss */
+/* line 1150, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details {
   text-align: center;
   font-size: 14px;
   color: #dedede;
 }
-/* line 1119, ../sass/components/_misc.scss */
+/* line 1154, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details:before {
   content: '"';
   font-color: red;
   font-size: 12px;
 }
-/* line 1124, ../sass/components/_misc.scss */
+/* line 1159, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-details:after {
   content: '';
   display: block;
@@ -2045,7 +2085,7 @@ div.testimonial-cg .testimonials p.testimonials-details:after {
   border-top: solid 1px lightgrey;
   margin-top: 5px;
 }
-/* line 1134, ../sass/components/_misc.scss */
+/* line 1169, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-names {
   color: black;
   font-size: 16px;
@@ -2053,7 +2093,7 @@ div.testimonial-cg .testimonials p.testimonials-names {
   margin-bottom: 0px;
   margin-top: 20px;
 }
-/* line 1142, ../sass/components/_misc.scss */
+/* line 1177, ../sass/components/_misc.scss */
 div.testimonial-cg .testimonials p.testimonials-type {
   font-size: 16px;
   color: green;
@@ -2062,7 +2102,7 @@ div.testimonial-cg .testimonials p.testimonials-type {
 }
 
 /************************ Step 3 CSS ***********************/
-/* line 1154, ../sass/components/_misc.scss */
+/* line 1189, ../sass/components/_misc.scss */
 div.step-3-cg {
   background-image: url("../images/section-2-top-dotted-border.jpg");
   background-position: top;
@@ -2071,7 +2111,7 @@ div.step-3-cg {
   height: 250px;
   text-align: center;
 }
-/* line 1161, ../sass/components/_misc.scss */
+/* line 1196, ../sass/components/_misc.scss */
 div.step-3-cg h3 {
   color: white;
   position: relative;
@@ -2080,7 +2120,7 @@ div.step-3-cg h3 {
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-/* line 1170, ../sass/components/_misc.scss */
+/* line 1205, ../sass/components/_misc.scss */
 div.step-3-cg p {
   position: relative;
   top: 60px;
@@ -2088,7 +2128,7 @@ div.step-3-cg p {
   font-weight: lighter;
   line-height: 1.5;
 }
-/* line 1177, ../sass/components/_misc.scss */
+/* line 1212, ../sass/components/_misc.scss */
 div.step-3-cg button {
   width: 150px;
   background-color: #2fde91;
